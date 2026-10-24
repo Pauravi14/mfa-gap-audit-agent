@@ -1,6 +1,6 @@
 # MFA gap-audit agent (prototype)
 
-A small agent I built after studying how [GetTeddy](https://getteddy.ai/) describes its **Evidence Agent** (pull MFA registration data from Entra ID) and **Gap Audit Agent** (check evidence against controls, compare with the last run, open tasks for gaps). This repo implements one slice of that flow for learning purposes, using only public product information—not GetTeddy’s internal architecture.
+A small prototype of an **evidence** step (pull MFA registration data from a mock Entra ID source) and a **gap audit** step (check evidence against a control, compare with the last run, surface new and resolved gaps). One control, CLI-only, for learning agent harness patterns in compliance automation.
 
 **Control:** MFA for all active users, mapped once to ISO 27001 A.5.17/A.8.5, SOC 2 CC6.1, and NIS2 Art. 21(2)(j).
 
