@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-10-20",
+  "users": [
+    {"upn": "anna.keller", "type": "member", "enabled": true, "mfa": true},
+    {"upn": "raj.patel", "type": "member", "enabled": true, "mfa": true},
+    {"upn": "lena.vogt", "type": "member", "enabled": true, "mfa": false},
+    {"upn": "tom.berg", "type": "member", "enabled": false, "mfa": false},
+    {
+      "upn": "svc-backup",
+      "type": "service",
+      "enabled": true,
+      "mfa": false,
+      "exemption": "Managed identity, IP-restricted (POL-12)"
+    },
+    {"upn": "breakglass-admin", "type": "breakglass", "enabled": true, "mfa": false},
+    {"upn": "mia.schulz", "type": "member", "enabled": true, "mfa": true},
+    {"upn": "omar.said", "type": "member", "enabled": true, "mfa": false}
+  ]
+}
